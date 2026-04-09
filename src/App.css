@@ -20,6 +20,46 @@
 
 }
 
+
+.skills-banner {
+  width: 100%;
+  overflow: hidden;
+  background: #0f152100; 
+  padding: 14px 0;
+  position: relative;
+  
+}
+
+.skills-track {
+  display: flex;
+  margin-top: 70px;
+  gap: 60px;
+  width: max-content;      
+  animation: scroll 25s linear infinite;
+}
+
+.skill-text {
+  color: #9CA3AF;
+  font-size: 16px;
+  white-space: nowrap;
+  letter-spacing: 0.5px;
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
 }
@@ -27,6 +67,23 @@ a {
 body {
   background-color: var(--main-bg);
 
+}
+.cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background-color: var(--main-text);
+  margin-left: 5px;
+
+  vertical-align: baseline;   
+  transform: translateY(2px);
+
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
 }
 
 
@@ -202,10 +259,10 @@ body {
   align-items: center;
   justify-content: center;
 
-  animation: scroll 1.5s ease-in-out infinite;
+  animation: mouseScroll 1.5s ease-in-out infinite;
 }
 
-@keyframes scroll {
+@keyframes mouseScroll {
   0% {
     transform: translate(-50%, 0);
     opacity: 1;
