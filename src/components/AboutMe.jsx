@@ -8,7 +8,7 @@ import { IoMdPeople } from "react-icons/io";
 const AboutMe = () => {
     return (
         <div className='about'>
-            <div className='aboutTop'>
+            <div className='Top'>
 
 
                 <div className="aboutTag" >
