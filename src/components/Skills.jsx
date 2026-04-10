@@ -31,6 +31,7 @@ const Skills = () => {
                         <span className="skillTag">React.js</span>
                         <span className="skillTag">Node.js</span>
                         <span className="skillTag">Express.js</span>
+                        <span className="skillTag">EJS</span>
                     </div>
 
                 </div>
@@ -41,7 +42,7 @@ const Skills = () => {
                         <span className="skillTag">OOPs</span>
                         <span className="skillTag">Rest API</span>
                         <span className="skillTag">JWT Authentication</span>
-                        <span className="skillTag">Express.js</span>
+                       
                     </div>
 
                 </div>

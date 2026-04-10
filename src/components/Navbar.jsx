@@ -5,9 +5,6 @@ import { FaGithub } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 import { PiLineVerticalThin } from "react-icons/pi";
 
-
-
-
 const Navbar = () => {
   return (
     <div className='navbar'>
@@ -17,7 +14,7 @@ const Navbar = () => {
       </div>
         <div className='centre'>
           <p>Projects</p>
-          <p>Skills</p>
+          <a href='#skills'>Skills</a>
           <p>Resume</p>
           <p>Contact</p>
         </div>

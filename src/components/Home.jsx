@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { IoIosArrowRoundDown } from "react-icons/io";
 import { CiDesktopMouse2 } from "react-icons/ci";
-import { FiExternalLink } from "react-icons/fi";
 
 
 
@@ -9,7 +8,7 @@ const Home = () => {
   const fullText = "MERN-Stack Web Developer";
   const [text, setText] = useState("");
   const skills = [
-    "C", "C++", "Python", "Java", "JavaScript",
+    "C", "C++", "Python", "Java", "JavaScript", "EJS",
     "HTML5", "CSS3", "React.js", "Node.js", "Express.js",
     "Data Structures & Algorithms", "OOPs", "REST API", "JWT",
     "SQL", "MongoDB", "Git & GitHub", "VS Code"
@@ -28,8 +27,6 @@ const Home = () => {
     }, 80);
     return () => clearInterval(interval);
   }, []);
-
-  const [index, setIndex] = useState(0);
 
 
   return (
