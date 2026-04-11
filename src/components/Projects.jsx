@@ -26,8 +26,8 @@ const Projects = () => {
                     <div className="projectTop">
                         <p>Expenso</p>
                         <div className="projectIcons">
-                            <a href="https://expenso-delta.vercel.app/"><span><FaExternalLinkAlt color='#9CA3AF' /></span> </a>
-                            <a href="https://github.com/CoderPrateek971/Expenso"><span><FaGithub color='#9CA3AF' /></span></a>
+                            <a href="https://expenso-delta.vercel.app/" target="_blank" rel="noopener noreferrer"><span><FaExternalLinkAlt color='#9CA3AF' /></span> </a>
+                            <a href="https://github.com/CoderPrateek971/Expenso" target="_blank" rel="noopener noreferrer"><span><FaGithub color='#9CA3AF' /></span></a>
                         </div>
 
                     </div>
@@ -65,7 +65,7 @@ const Projects = () => {
                     <div className="projectTop">
                         <p>Taskify - A full stack productivity website</p>
                         <div className="projectIcons">
-                            <a href="https://github.com/CoderPrateek971/Taskify"><span><FaGithub color='#9CA3AF' /></span></a>
+                            <a href="https://github.com/CoderPrateek971/Taskify" target="_blank" rel="noopener noreferrer"><span><FaGithub color='#9CA3AF' /></span></a>
                         </div>
 
                     </div>
@@ -102,7 +102,7 @@ const Projects = () => {
                     <div className="projectTop">
                         <p>Medical Insurance Charges Predictor</p>
                         <div className="projectIcons">
-                            <a href="https://github.com/CoderPrateek971/Medical-Insurance-Charges-Prediction"><span><FaGithub color='#9CA3AF' /></span></a>
+                            <a href="https://github.com/CoderPrateek971/Medical-Insurance-Charges-Prediction" target="_blank" rel="noopener noreferrer"><span><FaGithub color='#9CA3AF' /></span></a>
                         </div>
 
                     </div>
@@ -138,7 +138,7 @@ const Projects = () => {
                     <div className="projectTop">
                         <p>Netflix UI Clone</p>
                         <div className="projectIcons">
-                            <a href="https://github.com/CoderPrateek971/Netflix-Clone"><span><FaGithub color='#9CA3AF' /></span></a>
+                            <a href="https://github.com/CoderPrateek971/Netflix-Clone" target="_blank" rel="noopener noreferrer"><span><FaGithub color='#9CA3AF' /></span></a>
                         </div>
 
                     </div>
@@ -156,6 +156,12 @@ const Projects = () => {
                 </div>
 
             </div>
+
+            <div className="projectViewAll"  >
+                
+
+                    <a href="https://github.com/CoderPrateek971" className="viewAllTag" target="_blank" rel="noopener noreferrer" ><span><FaGithub color='gray' size={15}/></span>View All Projects on GitHub</a>
+                </div>
 
 
 

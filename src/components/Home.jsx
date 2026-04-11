@@ -45,7 +45,7 @@ const Home = () => {
         <p className='brief'>  B.Tech CSE student at <span className='hi'>BML Munjal University, Gurgaon</span> with a <span className='hi'>9.08 CGPA</span>, <br /> specializing in the MERN stack and building scalable web applications, while actively practicing DSA.</p>
 
         <div className='buttons'>
-          <a href="projects"><button className='viewWork'>View My Work <IoIosArrowRoundDown size={20} /></button></a>
+          <a href="#projects"><button className='viewWork'>View My Work <IoIosArrowRoundDown size={20} /></button></a>
           <a href='#skills' ><button className='skillsBtn'>Tech Stack</button></a>
         </div>
         <div className="skills-banner">

@@ -1,5 +1,6 @@
 import './App.css'
 import AboutMe from './components/AboutMe'
+import Experience from './components/Experience'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
@@ -19,6 +20,7 @@ function App() {
       <div className='break'></div>
       <Projects/>
       <div className='break'></div>
+      <Experience/>
 
 
     </div>
