@@ -1060,7 +1060,7 @@ body {
   /* Navbar Adjustments */
   .navbar {
     height: auto;
-    padding: 15px 20px;
+    padding: 15px 15px;
     flex-wrap: wrap;
   }
 
