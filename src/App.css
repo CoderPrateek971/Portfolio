@@ -25,6 +25,7 @@
   --btn-bg: linear-gradient(135deg, #00ffc3, #00c2ff);
   --btn-text: #020617;
   --btn-shadow: rgba(0, 255, 200, 0.4);
+  --timeline : #2a2f3a;
 
 }
 
@@ -42,6 +43,7 @@ body.light {
   --heading-col: black;
   --subHead-col: black;
   --date-col: #3a3c4000;
+  --timeline: #7d8698;
 
 
   --form-bg: rgba(255, 255, 255, 0.8);
@@ -290,7 +292,6 @@ body {
   font-family: sans-serif;
   color: var(--nav-text);
   gap: 10px;
-  font-weight: 5;
   border: none;
 
 }
@@ -742,7 +743,7 @@ body {
   top: 0;
   height: 100%;
   width: 2px;
-  background: #2a2f3a;
+  background:var(--timeline);
 
 }
 
