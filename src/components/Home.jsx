@@ -38,6 +38,7 @@ const Home = () => {
           <span>Open to Opportunities</span>
         </div>
 
+
         <h1>  <span className='hi'>Hi, I'm</span> <span style={{ color: "#2EC2A0" }}>Prateek Garg</span> </h1>
         <p className='domain'>{text}   <span className="cursor"></span></p>
 
@@ -62,7 +63,7 @@ const Home = () => {
 
 
       </div>
-      <div className='mouse'><CiDesktopMouse2 color='white' size={30} />
+      <div className='mouse'><CiDesktopMouse2  size={30} />
       </div>
 
 

@@ -1,6 +1,8 @@
 import './App.css'
 import AboutMe from './components/AboutMe'
+import Contact from './components/Contact'
 import Experience from './components/Experience'
+import Footer from './components/Footer'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
@@ -21,6 +23,12 @@ function App() {
       <Projects/>
       <div className='break'></div>
       <Experience/>
+      <div className='break'></div>
+      <Contact/>
+      <div className='break'></div>
+      <Footer/>
+
+
 
 
     </div>
