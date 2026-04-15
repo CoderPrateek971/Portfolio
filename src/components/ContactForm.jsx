@@ -5,6 +5,7 @@ const ContactForm = () => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors }
   } = useForm();
 
@@ -22,6 +23,7 @@ const ContactForm = () => {
     )
     .then(() => {
       alert("Message sent successfully!");
+      reset();
     })
     .catch(() => {
       alert("Failed to send message");
