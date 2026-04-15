@@ -32,10 +32,10 @@ const Navbar = () => {
         <a href='#contact'>Contact</a>
       </div>
       <div className='right'>
-        <div className="themeIcon" onClick={toggleTheme}>
-          {darkMode ? <IoIosMoon color='white' size={20} /> : <MdOutlineLightMode  size={20} />
+        <a className="themeIcon" style={{cursor: "pointer"}} onClick={toggleTheme}>
+          {darkMode ? <a ><IoIosMoon color='white' size={20} /> </a>: <MdOutlineLightMode  size={20} />
         }
-        </div>
+        </a>
         
         <PiLineVerticalThin size={20} />
         <a href="https://github.com/CoderPrateek971" target="_blank" rel="noopener noreferrer"><FaGithub  size={20} /></a>
