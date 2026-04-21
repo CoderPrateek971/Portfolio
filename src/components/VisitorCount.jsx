@@ -4,7 +4,7 @@ const VisitorCount = () => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    fetch("https://api.counterapi.dev/v1/prateek-gargs-team/first-counter-3724/up")
+    fetch("/api/count")
       .then((res) => res.json())
       .then((data) => {
         setCount(data.count);
